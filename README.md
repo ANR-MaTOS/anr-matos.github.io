@@ -1,2 +1,1 @@
-# anr-matos.github.io
-ANR MaTOS - Web Site
+# MaTOS: Machine Translation for Open Science | Traduction Automatique pour la Science Ouverte 
