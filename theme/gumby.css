@@ -7052,10 +7052,9 @@ div.buttons .primary {
  * Footer
  **********/
 footer {
-  text-align: center;
-  padding: 5px;
-  background-color: #abbaba;
-  color: #000;
+    margin-top: 35px;
+    text-align: center;
+    padding: 5px;
 }
 
 #subfoot {
