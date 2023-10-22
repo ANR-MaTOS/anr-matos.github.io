@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block content %}
+<section id="content">
+{% block content_title %}
+
+{% endblock %}
+
+<div class="row">
+
+  <span style="text-align:center;">
+  <img src="{{ SITEURL }}/static/images/Georgetown/punchcard.png" width="1200" alt="MaTOS">
+  
+  
+  <p>
+
+  Nearly 70 years after the <a href="https://en.wikipedia.org/wiki/Georgetown%E2%80%93IBM_experiment">Georgetown IBM experiment</a>, MaTOS (''Machine Translation for Open Science'') revisits the automatic translation of scientific documents in order to facilitate and open up access to scientific knowledge. MaTOS is supported by the French <a href="https://en.wikipedia.org/wiki/Agence_nationale_de_la_recherche">National Research Agency</a> as part of the AAPG 2022 - CES 23 (Artificial Intelligence and Data Science).  </p>
+  
+  </span>
+  
+  {% include 'sidebar.html' %}
+</div><!-- /.row -->
+
+{% include 'pagination.html' %}
+</section><!-- /#content -->
+{% endblock content %}
