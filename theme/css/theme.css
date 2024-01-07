@@ -1,0 +1,278 @@
+
+body {
+    display: flex;
+    min-height: 100vh;
+   flex-direction: column;
+}
+
+#logos li img {
+
+    max-height: 30px;
+    width: auto;
+}
+
+@media (max-width: 576px) {
+    #logos .list-group-item {
+      padding: 0.65rem !important; /* Adjust the padding value as needed */
+    }
+  }
+
+ul.borderless li {
+  border: 0 none;
+}
+
+:root {
+    --alchemy-border: rgba(0,0,0,.1);
+}
+::selection {
+  background: var(--primary);
+  color: var(--secondary);
+  text-shadow: none;
+}
+
+blockquote {
+  opacity: .7;
+  font-style: italic;
+}
+
+
+hr {
+  margin: 1.5rem 0;
+}
+
+/* ------------------------------------------------------------------------- */
+
+.container {
+  max-width: 960px;
+}
+
+.header,
+.footer {
+    /* padding: 1.5rem 0 .5rem; */
+    padding: 0;
+}
+
+.header {
+  border-bottom: 1px solid var(--alchemy-border);
+}
+
+.header img {
+  margin-bottom: 1rem;
+}
+
+.header .title {
+  font-weight: bold;
+  /* margin-bottom: 4rem; */
+  font-family: 'LinuxLibertineORegular'; 
+}
+
+.header ul,
+.header li {
+  margin-bottom: .5rem;
+}
+
+.header ul {
+  font-size: 1.25rem;
+  font-weight: 300;
+  /* text-transform: lowercase; */
+}
+
+.main {
+    padding: 1.5rem 0;
+    flex: 1;
+}
+
+.footer {
+  border-top: 1px solid var(--alchemy-border);
+}
+
+.highlight pre {
+  border: 1px solid var(--alchemy-border);
+  padding: 1rem;
+}
+
+.teaser header ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.teaser header li {
+  margin-bottom: .5rem;
+}
+
+.teaser .content p {
+  margin-bottom: 0;
+}
+
+.article header ul,
+.article header li {
+  margin-bottom: .5rem;
+}
+
+.article header li:not(:last-child) {
+  margin-right: 10px;
+}
+
+.article .content a {
+    text-decoration: none;
+    color: #4f5882;
+}
+
+.article .content a:hover {
+    text-decoration: underline;
+}
+
+
+.admonition {
+  border: thin solid gray;
+  background-color: lightgrey;
+  padding: .25em .5em;
+  margin-bottom: 1rem;
+}
+
+.admonition .admonition-title {
+  font-weight: bold;
+  background-color: rgba(255,255,255,0.66);
+  text-align: center;
+}
+
+.admonition p.last  {
+  margin-bottom: 0;
+}
+
+.admonition.important, .admonition.note, .admonition.warning {
+  border-color: goldenrod;
+  background-color: lightgoldenrodyellow;
+}
+
+.admonition.attention, .admonition.caution, .admonition.danger, .admonition.error {
+  border-color: red;
+  background-color: lightpink;
+}
+
+.admonition.hint, .admonition.tip {
+  border-color: limegreen;
+  background-color: palegreen;
+}
+
+@media (min-width: 576px) {
+  .header .title {
+    font-size: 5rem;
+  }
+  .subtitle {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .header,
+  .footer {
+    text-align: center;
+  }
+
+  .teaser header li {
+    display: inline-block;
+  }
+
+  .teaser header li:not(:last-child) {
+    margin-right: 10px;
+  }
+}
+
+/* ========== */
+
+.rounded-circle {
+    border-radius: 50%!important;
+}
+.border-5 {
+    border-width: 5px;
+}
+
+.border-white {
+    border-opacity: 1;
+    border-color: rgba(255,255,255, 1) !important;
+}
+
+.shadow {
+    box-shadow: 0 0.375rem 1.5rem 0 rgba(140,152,164,.125)!important;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.icon-sm {
+    width: 1.5rem;
+    height: 1.5rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 75%;
+    line-height: normal;
+}
+.rounded-circle {
+    border-radius: 50%!important;
+}
+
+.hover-top-in .hover-top--in {
+    transition: ease-in-out all .35s;
+    position: relative;
+    top: 0
+}
+
+.hover-top-in:hover .hover-top--in {
+    top: -10px
+}
+
+.me-1 {
+    margin-right: 0.25rem!important;
+}
+
+.fw-700 {
+    font-weight: 700!important;
+}
+
+
+.z-index-1 {
+    z-index: 1!important;
+}
+
+
+.mt-n4 {
+    margin-top: -1.5rem!important;
+}
+
+.shadow {
+    box-shadow: 0 0.375rem 1.5rem 0 rgba(var(--bs-gray-700-rgb),.125)!important;
+}
+
+.position-relative {
+    position: relative!important;
+}
+.overflow-hidden {
+    overflow: hidden!important;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.3rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.publication-content {
+    
+}
+
+.dimmed-emoji {
+    filter: grayscale(50%) brightness(70%);
+}
